@@ -1,0 +1,39 @@
+#root{
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0 0 20px #888;
+  height: 450px;
+  width: 300px;
+  padding-top: 10px;
+  place-items:center;
+}
+p
+{
+  color: #888;
+  
+}
+button{
+  margin-top: 30px;
+  background-color: rgb(69, 191, 244);
+  border-color:rgb(22, 198, 242);
+  height: 30px;
+  width:250px;
+  color:aliceblue;
+  border-radius: 10px;
+  
+}
+.signin:hover
+{
+  filter:drop-shadow(0 0 5px rgb(113, 189, 233));
+}
+.logo {
+  height: 200px;
+  padding: 1px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
